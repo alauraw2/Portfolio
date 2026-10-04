@@ -14,19 +14,24 @@
     <!-- jQuery used to load the navbar -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
-  <body>
+<body
+  class="text-light"
+  style="background: linear-gradient(rgba(8, 12, 20, 0.82), rgba(8, 12, 20, 0.82)),
+  url('images/background1.jpeg') center center / cover no-repeat fixed;">
     <!-- Navbar gets added here -->
     <div id="nav-placeholder"></div>
     <div class="container">
      <div class="text-center py-3">
-  <h1 class="h2 fw-bold mb-2">
-    Life on the Grid </h1>
-  <p class="mb-1">
+      <div class="text-center py-4">
+  <h1class="fst-italic mb-1>Life on the Grid</h1>
+    <p class="mb-1">
     Projects by Alaura Ward
   </p>
-  <p class="small text-body-secondary">
+  <p class="text-center py-3" class="text-light-emphasis">
     Things I've built, things I'm building, and things I'm still figuring out.
   </p>
+</div>
+
 </div>
     </div>
     <section class="projects" id="nasa">
@@ -169,7 +174,8 @@
       $("#nav-placeholder").load("navbar.html #site-nav");
     </script>
     <footer>
-        <p> &copy; 2026 Alaura Ward </p>
+        <p class="text-center py-3" class="mb-1"> &copy; 2026 Alaura Ward </footer>
     </footer>
-  </body>
+  </div>
+</body>
 </html>

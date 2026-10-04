@@ -14,8 +14,10 @@
     <!-- jQuery used to load the navbar -->
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
   </head>
-  
-  <body>
+  <body
+  class="text-light"
+  style="background: linear-gradient(rgba(8, 12, 20, 0.82), rgba(8, 12, 20, 0.82)),
+  url('images/background1.jpeg') center center / cover no-repeat fixed;">
     <!-- Navbar gets added here -->
     <div id="nav-placeholder"></div>
     <div class="container">
@@ -134,80 +136,95 @@
   </div>
 </div>
 </section>
+<section class="py-4">
+  <div class="container">
 
-<section>
-  <section>
-  <h2><div class="text-center py-3></h2>
-  <h2 class="h4 fw-bold mb-3"> My Pit Crew</h2>
-  <p>
-    <em>
-      My pit crew consists of friends, family, and mentors who support me
-      in my journey. They help me stay focused, motivated, and ready to
-      tackle the next challenge.
-    </em>
-  </p>
- <div class="container my-4">
-    <div class="row justify-content-center g-4">
+    <h2 class="text-center text-light mb-4">My Team</h2>
+
+    <!-- TOP TWO CARDS -->
+    <div class="row g-4 justify-content-center">
+
       <!-- Oso -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="card text-center h-100 shadow-sm">
-          <div class="ratio ratio-1x1 w-50 mx-auto mt-3 rounded-circle overflow-hidden">
+      <div class="col-12 col-md-5">
+        <div class="card h-100 text-center bg-dark bg-opacity-75 text-light border-secondary shadow">
+
+          <div class="ratio ratio-1x1 w-50 mx-auto mt-4 rounded-circle overflow-hidden">
             <img
               src="images/oso.jpeg"
               class="w-100 h-100 object-fit-cover"
-              alt="Oso, my 2 year old Goldendoodle">
+              alt="Oso">
           </div>
+
           <div class="card-body">
-            <h5 class="card-title">Team Principal</h5>
-            <p class="card-text small">
-              Oso is my 2-year-old Goldendoodle and self-appointed team
-              principal. He supervises my projects and makes sure I take breaks.
+            <h3 class="h5 fw-bold">Chief Morale Officer</h3>
+
+            <p class="card-text">
+              Oso is my 2-year-old Goldendoodle and self-appointed team principal.
+              He supervises my projects and makes sure I take breaks.
             </p>
           </div>
+
         </div>
       </div>
-<!-- Parents -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="card text-center h-100 shadow-sm">
 
-          <div class="ratio ratio-1x1 w-50 mx-auto mt-3 rounded-circle overflow-hidden">
+
+      <!-- Parents -->
+      <div class="col-12 col-md-5">
+        <div class="card h-100 text-center bg-dark bg-opacity-75 text-light border-secondary shadow">
+
+          <div class="ratio ratio-1x1 w-50 mx-auto mt-4 rounded-circle overflow-hidden">
             <img
               src="images/parents.jpeg"
               class="w-100 h-100 object-fit-cover"
-              alt="My mom and dad">
+              alt="My parents">
           </div>
+
           <div class="card-body">
-            <h5 class="card-title">My Support Crew</h5>
-            <p class="card-text small">
+            <h3 class="h5 fw-bold">Core Support</h3>
+
+            <p class="card-text">
               My parents have always supported me through school, work,
               and figuring out what I want to do next.
             </p>
           </div>
+
         </div>
       </div>
-<!-- Friends -->
-      <div class="col-12 col-sm-6 col-lg-3">
-        <div class="card text-center h-100 shadow-sm">
-          <div class="ratio ratio-1x1 w-50 mx-auto mt-3 rounded-circle overflow-hidden">
+
+    </div>
+
+
+    <!-- BOTTOM CARD -->
+    <div class="row g-4 justify-content-center mt-1">
+
+      <div class="col-12 col-md-5">
+        <div class="card h-100 text-center bg-dark bg-opacity-75 text-light border-secondary shadow">
+
+          <div class="ratio ratio-1x1 w-50 mx-auto mt-4 rounded-circle overflow-hidden">
             <img
               src="images/Friends1.jpeg"
               class="w-100 h-100 object-fit-cover"
-              alt="Me with my friends">
+              alt="Friends and dogs">
           </div>
+
           <div class="card-body">
-            <h5 class="card-title">The Pit Crew</h5>
-            <p class="card-text small">
+            <h3 class="h5 fw-bold">Inner Circle</h3>
+
+            <p class="card-text">
               My friends are the people (or animals) I meet along the way
-              who keep me grounded, make me laugh and support me consistently.
+              who keep me grounded, make me laugh, and support me consistently.
             </p>
           </div>
+
         </div>
       </div>
+
     </div>
+
   </div>
 </section>
-</section>
 <section>
+  <div class="container">
 <h2>
 <h2 class="h4 fw-bold mb-3">"We Work In Sprints"</h2>
 <p><em> Whether its running, work, or school, I manage everything in focused sprints.</em></p>
@@ -267,6 +284,7 @@
 </div>
 </section>
 <section>
+  <div class="container">
 <h2>
 <h2 class="h4 fw-bold mb-3">More Adventures</h2>
 <p>
@@ -359,13 +377,13 @@
   </div>
 </div>
 </section>
+  </body>
       </div>
     </div>
     <script>
       $("#nav-placeholder").load("navbar.html #site-nav");
     </script>
     <footer>
-        <p> &copy; 2026 Alaura Ward </p>
+       <p class="text-center py-3" class="mb-1"> &copy; 2026 Alaura Ward </footer>
     </footer>
-  </body>
 </html>
